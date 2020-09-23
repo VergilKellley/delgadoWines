@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-nav-container {
+    margin-top: 1rem;
+}
+
+.top-nav ul {
+    display: inline-flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.top-nav #logo {
+    margin-right: 150px;
+}
+
+.top-nav ul a {
+    position: relative;
+    text-decoration: none;
+    padding: 2rem;
+}
