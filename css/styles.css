@@ -4,22 +4,43 @@
     box-sizing: border-box;
 }
 
+:root {
+    --nav-background: rgb(255, 228, 196);
+    --body-background: rgba(255, 228, 196, 0.6);
+    --main-color: #2001fe;
+    --accent-color: #fe2001;
+    --main-background-color: #ededed;
+    --h1-font: sans-serif;
+    --logo-font: 'Quicksand', sans-serif;
+    --h2-font: 'Montserrat', sans-serif;
+    --p-font: aria'Lato', sans-serif;
+  }
+
+  body {
+      background-color: var(--body-background);
+  }
+
 .top-nav-container {
-    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    background-color: var(--nav-background);
 }
 
 .top-nav ul {
     display: inline-flex;
     justify-content: center;
     list-style: none;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .top-nav #logo {
     margin-right: 150px;
+    margin-left: 75px;
 }
 
 .top-nav ul a {
     position: relative;
     text-decoration: none;
     padding: 2rem;
+    color: var(--text-color);
 }
