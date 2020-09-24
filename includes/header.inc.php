@@ -25,7 +25,7 @@
     <div class="top-nav-container">
       <div class="top-nav">
           <a id="logo" href="index.php">
-            <img src="images/logo.png" alt="logo image">
+            <img class="wine-logo" src="images/wineLogo.jpg" alt="logo image">
           </a>
         <ul>
           <li><a href="index.php">Home</a></li>
