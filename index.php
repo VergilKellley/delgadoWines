@@ -12,6 +12,11 @@
         <img src="images/winebottle1.png" alt="wine bottle" />
     </div>
 </section>
+<section class="second-container">
+  <div class="second-container-contents">
+    <img id="wine2" src="images/wine2.jpg" alt="wine glasses" />
+  </div>
+</section>
 
 <?php
   require 'includes/footer.inc.php';
