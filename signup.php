@@ -6,8 +6,8 @@
       <div id="signup-hero-image"></div>
       <section class="signup-form-container">
            <h2 class="h2-titles">Wine Club</h2>
-           <h2>Sign Up</h2>
-           <p>Get exclusive <span>member's only discounts</span> by singing up!</p>
+           <h2 class="signup-text">Sign Up</h2>
+           <p class="signup-p-text">Get exclusive <span>member's only discounts</span> by singing up!</p>
         <div class="form-text">
         <form action="includes/signup.inc.php" method="post">
             <input type="text" name="uid" placeholder="Username" required>
