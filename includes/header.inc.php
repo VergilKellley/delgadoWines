@@ -24,11 +24,11 @@
   <section>
     <div class="top-nav-container">
       <div class="top-nav">
-          <a id="logo" href="#home">
+          <a id="logo" href="index.php">
             <img src="images/logo.png" alt="logo image">
           </a>
         <ul>
-          <li><a href="shop.php">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li><a href="shop.php">Shop</a></li>
           <li><a href="about.php">About</a></li>
           <li><a href="contact.php">Contact</a></li>
