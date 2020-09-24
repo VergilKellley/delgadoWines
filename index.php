@@ -5,7 +5,7 @@
 <section class='hero-container'>
     <div class="hero-image-container">
       <div class="hero-text">
-        <h1>Divi Wines</h1>
+        <h1>Elegant Winery</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio maxime beatae fugit molestias aliquam numquam quae autem, velit ea doloremque, reprehenderit atque voluptates modi magni amet dignissimos obcaecati ullam debitis!</p>
         <button class="buttons" id="browseWinesBtn" type="submit">Browse Our Wines</button>     
       </div>
@@ -14,7 +14,8 @@
 </section>
 <section class="second-container">
   <div class="second-container-contents">
-    <img id="wine2" src="images/wine2.jpg" alt="wine glasses" />
+    <div class="three-wine-glasses"></div>
+    <!--<img id="wine2" src="images/wine2.jpg" alt="wine glasses" />-->
   </div>
 </section>
 
