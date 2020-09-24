@@ -13,7 +13,7 @@
     --h2-font: 'Montserrat', sans-serif;
     --p-font: aria'Lato', sans-serif;
     --button-bg-color: #fff;
-    --button-font-border-color: #886249;
+    --button-font-border-color: #5f2e0d;
     --button-font-size: 1em;
   }
 
@@ -22,12 +22,32 @@
       max-width: 100vw;
   }
 
+  #logo {
+      margin-left: 30px;
+      margin-right: 40px;
+  }
+
+  #login-form {
+      margin-left: 60px;
+  }
+
+  #login-form input {
+      padding: 5px;
+  }
+
+  .loginBtn {
+      padding: 5px 8px;
+  }
+
+  .loginBtn:hover {
+      cursor: pointer;
+  }
+
 .top-nav-container {  
     background-color: var(--nav-background);
     display: flex;
-    width: 100vw;
     height: 20vh;
-
+    overflow-x: hidden;
 }
 
 .top-nav {
@@ -35,6 +55,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .wine-logo {
@@ -48,11 +69,6 @@
     justify-content: center;
     list-style: none;
 }
-
-/*.top-nav #logo {
-    margin-right: 150px;
-    margin-left: 75px;
-}*/
 
 .top-nav ul a {
     position: relative;
@@ -69,12 +85,13 @@
 .hero-text {
     position: relative;
     width: 40vw;
-    margin-top: 7vh;
-    margin-left: 7vw;
+    margin-top: 1vh;
+    margin-left: 6vw;
 }
 
 .hero-text h1 {
     font-size: var(--h1-font-size);
+    color: var(--button-font-border-color);
 }
 
 .hero-image-container {
@@ -148,7 +165,7 @@ SIGN UP PAGE
 
 .h2-titles {
     position: relative;
-    top: 15%;
+    top: 5%;
     left: 40%;
     font-size: 6em ;
     color: #fff;
