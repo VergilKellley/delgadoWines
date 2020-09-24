@@ -23,7 +23,7 @@
   }
 
 .top-nav-container {
-    margin-bottom: 1.5rem;
+    
     background-color: var(--nav-background);
 }
 
@@ -55,7 +55,7 @@
 .hero-text {
     position: relative;
     width: 40vw;
-    margin-top: 45vh;
+    margin-top: 7vh;
     margin-left: 7vw;
 }
 
@@ -79,10 +79,85 @@
     margin-top: 1rem;
     padding: 20px 25px;
     font-style: italic;
+    border-radius: 3px;
 }
 
 .buttons:hover {
     color: #fff;
     background-color: var(--button-font-border-color);
     cursor: pointer;
+}
+
+.second-container-contents img {
+    position: relative;
+    margin-top:20%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+/*******************************
+SIGN UP PAGE
+*******************************/
+
+.signup-container {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.signup-container {
+    background-image: url('../images/wine3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.signup-container .overlay {
+    background-color: rgba(0, 0, 0, .6);
+    position: relative;
+    height: 100vh;
+    z-index: 2;
+}
+
+.signup-form-container {
+    position: absolute;
+    max-width: 80vw;
+    top: 5%;
+    left: 15%;
+    z-index: 3;
+}
+
+.signup-form-container h2, p {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.h2-titles {
+    position: relative;
+    top: 15%;
+    left: 40%;
+    font-size: 6em ;
+    color: #fff;
+    z-index: 3;
+}
+
+.form-text {
+    display: flex;
+    max-width: 80vw;
+}
+
+.form-text p {
+    position: relative;
+    left: 5%;
+    max-width: 600px;
+    font-size: 1.5em;
+    color: #fff;
+
+}
+
+.signup-form-container form input {
+    display: block;
+    width: 360px;
+    padding: 10px;
+    margin-bottom: 1rem;
 }
