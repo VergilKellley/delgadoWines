@@ -15,7 +15,18 @@
 <section class="second-container">
   <div class="second-container-contents">
     <div class="three-wine-glasses"></div>
-    <!--<img id="wine2" src="images/wine2.jpg" alt="wine glasses" />-->
+    <div class="boxes">
+      <div class="box" id="box-1">
+        <h3><strong>Lorem ipsum dolor sit.</strong></h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis quaerat.</p>
+      </div>
+      <div class="box" id="box-2">
+        <h3><strong>Lorem, ipsum dolor.</strong></h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis quaerat.</p>
+      </div>
+      <button id="more-about-us-btn" class="buttons" type="submit">More About Us</button>
+    </div>
+    
   </div>
 </section>
 
