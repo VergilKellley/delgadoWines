@@ -184,7 +184,7 @@ LANDING PAGE SECOND CONTAINER
 #more-about-us-btn {
     position: absolute;
     top: 25vh;
-    left: 73vw;
+    left: 72.5vw;
     color: var(--button-font-border-color);
     border: 2px solid var(--button-font-border-color);
     font-size: var(--button-font-size);
@@ -200,7 +200,203 @@ LANDING PAGE SECOND CONTAINER
 }
 
 
+/*******************************
+LANDING PAGE THIRD CONTAINER
+*******************************/
 
+.third-container-content h2 {
+   text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.our-wines-imgs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.our-wines-imgs img {
+    height: 450px;
+}
+
+.third-container-content button {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*******************************
+LANDING PAGE FOURTH CONTAINER
+*******************************/
+
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.fourth-container-content {
+    display: flex;
+    width: 80vw;
+    justify-content: space-evenly;
+}
+
+.fourth-img-overlay-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 23vw;
+}
+
+.fourth-container-img-overlay {
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    z-index: 4;
+    height: 600px;
+    width: 23vw;
+}
+
+.fourth-container-img-white-overlay {
+    background-color: rgba(255, 255, 255, .3);
+    position: absolute;
+    z-index: 4;
+    height: 600px;
+    width: 23vw;
+}
+
+.fourth-container-bg-img-1 {
+    background-image: url('../images/wine8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 23vw;
+    position: absolute;
+}
+
+.fourth-container-bg-img-2 {
+    background-image: url('../images/wine9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 23vw;
+    position: absolute;
+}
+
+.fourth-container-bg-img-3 {
+    background-image: url('../images/wine10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 23vw;
+    position: absolute;
+}
+
+.overlay-text {
+    font-size: 4rem;
+    position: relative;
+    z-index: 5;
+    color: #fff;
+}
+
+/*******************************
+LANDDING PAGE FIFTH SECTION
+*******************************/
+
+.fifth-container h2 {
+    font-size: 4rem;
+    margin-left: 11vw;
+    margin-top: 10rem;
+    color: var(--button-font-border-color);
+}
+
+.fifth-container-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+.process-sections {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+    margin-top: 5rem;
+}
+
+.process-sections .process-box {
+    width: 23vw;
+    border: 2px solid var(--button-font-border-color);
+    height: 440px;
+    padding: 40px 20px 10px 20px;
+    font-size: 1.4rem;
+    line-height: 2;
+    color: var(--button-font-border-color);
+}
+
+.process-sections .process-box button {
+    font-size: 1rem;
+}
+
+.process-sections .process-text {
+    width: 23vw;
+    line-height: 2;
+
+}
+
+.process-sections div:nth-child(2) {
+    padding: 0 20px;
+    width: 27vw;
+}
+
+.process-sections .process-text img {
+    height: 500px;
+}
+
+/*******************************
+LANDING PAGE SIXTH SECTION
+*******************************/
+
+.sixth-container-content {
+    position: relative;
+}
+
+#fifty-k-container {
+    display: flex;
+    justify-content: center;
+}
+
+#twenty-twenty-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 16rem;
+}
+
+#fifty-k-text{
+    font-size: 100px;
+    color: #000
+}
+
+#fifty-k-bottles-per-year {
+    font-size: 50px;
+    color: rgba(0, 0, 0, .3);
+}
+
+#twenty-twenty {
+    font-size: 25rem;
+}
+
+.sixth-container-content img {
+    position: absolute;
+    height: 800px;
+    top: 100px;
+    z-index: 3;
+}
 
 /*******************************
 SIGN UP PAGE
