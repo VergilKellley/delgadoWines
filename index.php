@@ -92,7 +92,57 @@
       <h2 id="twenty-twenty">2020</h2>
       <img src="images/wine12.png" alt="bottle of wine"/>
     </div>
+    <div class="shop-vintage-btn">
+      <button class="buttons" type="submit">Shop 2020 Vintage</button>
+    </div>
   </div>
+</section>
+<section class="seventh-container">
+  <div class="seventh-container-content">
+    <div class="reviews-text">
+      <img src="images/winer14.jpg" alt="wine glass and corkscrew" />
+      <p>AWLorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem eveniet iusto atque deleniti consequatur et dolore nostrum architecto fugiat nam!<p>
+    </div>
+  </div>
+</section>
+<section class="eigth-container">
+  <div class="eigth-container-content">
+    <div class="eigth-container-overlay"></div>
+    <div class="eigth-container-bg-image"></div>
+  </div>
+  <div class="wine-club-container">
+    <div class="wine-club-box-content">
+      <h2 id="join-wine-club">Join Our Wine Club</h2>
+      <button class="wine-club-btn" type="submit">Learn More</button>
+      <p><strong>Lorem, ipsum dolor sit amet</strong> consectetur adipisicing elit. Quibusdam porro quam numquam eligendi asperiores. Nesciunt.</p>
+    </div>
+    <div class="wine-club-subscription-content">
+      <h2>Subscribe</h2>
+      <input type="text" name="subscription" placeholder="Email" />
+      <button class="wine-club-submit-btn" type="submit">Subscribe</button>
+    </div>
+  </div>
+</section>
+<section class="ninth-container">
+  <div class="ninth-container-bg-image"></div>
+  <div class="ninth-container-visit-Us-content">
+    <h2>Come Visit Us</h2>
+    <button class="buttons" type="submit">Plan Your Visit</button>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sit eligendi beatae est recusandae quod?</p>
+  </div>
+  <div class="phone-address-box">
+    <p><strong>Phone</strong></p>
+    <br>
+    <p>(555) 555-5555</p>
+    <br><br>
+    <p><strong>Address</strong></p>
+    <br>
+    <p> 1234 N. Clark Street<br>
+        Some City Illinois 60601</p>
+        <br><br>
+    <h2>Join Our Wine Club</h2>
+    <button class="wine-club-btn-2" type="submit">Learn More</button>
+    <div>
 </section>
 <div></div>
 
