@@ -303,7 +303,7 @@ LANDING PAGE FOURTH CONTAINER
 }
 
 /*******************************
-LANDDING PAGE FIFTH SECTION
+LANDDING PAGE FIFTH CONTAINER
 *******************************/
 
 .fifth-container h2 {
@@ -359,7 +359,7 @@ LANDDING PAGE FIFTH SECTION
 }
 
 /*******************************
-LANDING PAGE SIXTH SECTION
+LANDING PAGE SIXTH CONTAINER
 *******************************/
 
 .sixth-container-content {
@@ -396,6 +396,233 @@ LANDING PAGE SIXTH SECTION
     height: 800px;
     top: 100px;
     z-index: 3;
+}
+
+.shop-vintage-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+/*******************************
+LANDING PAGE SEVENTH CONTAINER
+*******************************/
+
+.seventh-container {
+    margin-top: 15rem;
+}
+
+.reviews-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seventh-container-content img {
+    width: 100vw;
+    position: relative;
+}
+
+.reviews-text p {
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    font-size: 2rem;
+    width: 60vw;
+    margin: 10rem auto;
+    line-height: 1.5;
+}
+
+/*******************************
+LANDING PAGE EIGTH CONTAINER
+*******************************/
+
+.eigth-container {
+    background-color: #FAF5F1;
+    height: 145vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.eigth-container-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    height: 100%;
+}
+
+.eigth-container-bg-image {
+    background-image: url('../images/wine15.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 80vw;
+    position: absolute;
+    z-index: 3;
+}
+
+.eigth-container-overlay {
+    font-size: 4rem;
+    position: absolute;
+    background-color: rgba(0,0,0, .6);
+    height: 80vh;
+    width: 80vw;
+    z-index: 4;
+}
+
+.wine-club-container {
+    position: absolute;
+    height: 120vh;
+    width: 100vw;
+    z-index: 5;
+    top: 15%;
+    overflow-x: hidden;
+}
+
+.wine-club-box-content {
+    position: absolute;
+    width: 25%;
+    height: 100vh;
+    border: 2px solid rgba(226, 219, 214, 0.8);
+    z-index: 5;
+    top: 10px;
+    left: 13vw;
+    overflow-x: hidden;
+}
+
+.wine-club-box-content h2 {
+    position: relative;
+    top: -25px;
+}
+
+.wine-club-box-content p {
+    padding: 130px 20px 20px 20px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+#join-wine-club {
+    color: #FAF5F1;
+    margin-top: 40%;
+    font-size: 2.5rem;
+    padding: 0 20px;
+}
+
+.wine-club-subscription-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 11%;
+}
+
+.wine-club-subscription-content h2 {
+    color: #fff;
+    font-size: 5rem;
+    padding-bottom: 30px;
+}
+
+.wine-club-subscription-content input {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(226, 219, 214, 0.8);
+    color: #fff;
+}
+
+::placeholder {
+    color: rgba(226, 219, 214, 0.8)
+}
+
+.wine-club-submit-btn {
+    padding: 10px;
+}
+
+.wine-club-btn {
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(226, 219, 214, 0.8);
+    color: rgba(250, 245, 241, .8);
+    padding: 10px 15px;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 14px;
+    position: relative;
+    top: -35px;
+}
+
+/*******************************
+LANDING PAGE NINTH SECTION
+*******************************/
+
+.ninth-container {
+    position: relative;
+    display: flex;
+    height: 150vh;
+    overflow-x: hidden;
+    z-index: 4;
+}
+
+.ninth-container-bg-image {
+    background-image: url('../images/wine18.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90%;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+}
+
+.ninth-container-visit-Us-content {
+    width: 30%;
+    margin: 10% 10%;
+}
+
+.ninth-container-visit-Us-content  h2 {
+    font-size: 6rem;
+    margin-bottom: 50px;
+    color: var(--button-font-border-color);
+}
+
+.ninth-container-visit-Us-content button {
+    margin-bottom: 20px;
+
+}
+
+.phone-address-box {
+    width: 25%;
+    position: relative;
+    z-index: 2;
+    height: 110vh;
+    margin-top: 30px;
+    padding-left: 20px;
+    background-color: var(--button-font-border-color);
+    color: #fff;
+}
+
+.phone-address-box p:first-child {
+    padding-top: 100px;
+}
+
+.phone-address-box h2 {
+    font-size: 3rem;
+}
+
+.wine-club-btn-2 {
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(226, 219, 214, 0.8);
+    color: rgba(250, 245, 241, .8);
+    padding: 10px 15px;
+    margin-top: 50px;
+    font-size: 14px;
+    position: relative;
+    top: -35px;
 }
 
 /*******************************
