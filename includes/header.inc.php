@@ -21,7 +21,7 @@
     <title>Delgado Winery</title>
   </head>
   <body>
-  <section>
+  <section class="nav-container">
     <div class="top-nav-container">
       <div class="top-nav">
           <a id="logo" href="index.php">
