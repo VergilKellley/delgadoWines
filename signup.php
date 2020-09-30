@@ -55,6 +55,31 @@
             </div>
         </div>
     </section>
+    <section class="fourth-container">
+        <div class="bottle-club-container">
+            <div class="bottle-club">
+                <h2>4 Bottle Club</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta necessitatibus amet ducimus magnam natus, accusamus excepturi possimus quod eveniet!</p>
+                <button class="buttons" type="submit">Join Now</button>
+                <p>4 Bottles 4 Times a Year</p>
+                <p>$240 per Shipment</p>
+            </div>
+            <div class="bottle-club">
+                <h2>8 Bottle Club</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta necessitatibus amet ducimus magnam natus, accusamus excepturi possimus quod eveniet!</p>
+                <button class="buttons" type="submit">Join Now</button>
+                <p>8 Bottles 4 Times a Year</p>
+                <p>$400 per Shipment</p>
+            </div>
+            <div class="bottle-club">
+                <h2>12 Bottle Club</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam soluta necessitatibus amet ducimus magnam natus, accusamus excepturi possimus quod eveniet!</p>
+                <button class="buttons" type="submit">Join Now</button>
+                <p>12 Bottles 4 Times a Year</p>
+                <p>$650 per Shipment</p>
+            </div>
+        </div>
+    </section>
     
 <?php
     require "includes/footer.inc.php";
