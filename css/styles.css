@@ -138,6 +138,10 @@
 LANDING PAGE SECOND CONTAINER
 *****************************/
 
+.second-container {
+    margin-top: 5rem;
+}
+
 .three-wine-glasses {
     background-image: url('../images/wine2.jpg');
     background-position: center;
@@ -644,7 +648,7 @@ SIGN UP PAGE
     position: relative;
     height: 100vh;
     max-width: 100vw;
-    top: 20vh;
+    margin-top: 20vh;
 }
 
 .signup-container {
@@ -753,10 +757,12 @@ SIGN UP PAGE
     width: 90vw;
     margin: 0 auto;
     position: relative;
+    top: 0;
 }
 
 .discounts-bg-image {
     background-image: url('../images/wine19.jpg');
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -781,4 +787,34 @@ SIGN UP PAGE
 .discounts-text p {
     font-size: 30px;
     padding: 15px;
+}
+
+.fourth-container {
+    position: relative;
+    top: 100vh;
+}
+
+.bottle-club-container {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+}
+
+.bottle-club {
+    padding: 0 20px 0 20px;
+}
+
+.bottle-club h2 {
+    font-size: 2.5rem;
+    padding: 50px 0 40px 0;
+}
+
+.bottle-club p {
+    line-height: 1.5;
+}
+
+.bottle-club button {
+    display: block;
+    margin-bottom: 40px;
+    margin-top: 30px;
 }
