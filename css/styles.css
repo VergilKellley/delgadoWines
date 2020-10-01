@@ -254,6 +254,7 @@ LANDING PAGE FOURTH CONTAINER
     display: flex;
     width: 80vw;
     justify-content: space-evenly;
+    margin: 5rem auto;
 }
 
 .fourth-img-overlay-container {
@@ -324,7 +325,7 @@ LANDDING PAGE FIFTH CONTAINER
 .fifth-container h2 {
     font-size: 4rem;
     margin-left: 11vw;
-    margin-top: 10rem;
+    margin-top: 5rem;
     color: var(--button-font-border-color);
 }
 
@@ -424,7 +425,7 @@ LANDING PAGE SEVENTH CONTAINER
 *******************************/
 
 .seventh-container {
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
 
 .reviews-text {
@@ -669,7 +670,7 @@ SIGN UP PAGE
 .signup-form-container {
     position: absolute;
     max-width: 90vw;
-    top: 5%;
+    top: 2%;
     left: 15%;
     z-index: 3;
     overflow-x: hidden;
@@ -682,8 +683,7 @@ SIGN UP PAGE
 
 .h2-titles {
     position: relative;
-    top: 5%;
-    left: 40%;
+    text-align: center;
     font-size: 6em ;
     color: #fff;
     z-index: 3;
@@ -750,7 +750,6 @@ SIGN UP PAGE
 
 .third-container {
     position: relative;
-    margin-top: 100px;
 }
 
 .third-container-discounts {
@@ -789,19 +788,44 @@ SIGN UP PAGE
     padding: 15px;
 }
 
-.fourth-container {
+/***************************
+SIGNUP PAGE FOURTH CONTAINER
+***************************/
+
+.signup-container form button {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #5f2e0d;
+    border: none;
+}
+
+.signup-container form button:hover {
+    cursor: pointer;
+    background-color: #5f2e0d;
+    color: #fff;
+}
+
+.fourth-container-signup-page {
     position: relative;
-    top: 100vh;
+    top: 120vh;
+    overflow-x: hidden;
 }
 
 .bottle-club-container {
-    width: 80vw;
+    width: 100vw;
     height: 80vh;
     display: flex;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: #F7F4EF;
+    
 }
 
 .bottle-club {
+    width: 25vw;
     padding: 0 20px 0 20px;
+    margin: 0 auto;
+
 }
 
 .bottle-club h2 {
@@ -817,4 +841,14 @@ SIGN UP PAGE
     display: block;
     margin-bottom: 40px;
     margin-top: 30px;
+}
+
+.fifth-container-signup-page {
+    overflow-x: hidden;
+    margin-top: 20vh;
+}
+
+.fifth-container-signup-page img {
+    overflow-x: hidden;
+    margin-top: 100vh;
 }
