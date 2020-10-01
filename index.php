@@ -144,7 +144,6 @@
     <button class="wine-club-btn-2" type="submit">Learn More</button>
     <div>
 </section>
-<div></div>
 
 <?php
   require 'includes/footer.inc.php';
