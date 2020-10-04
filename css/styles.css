@@ -852,3 +852,15 @@ SIGNUP PAGE FOURTH CONTAINER
     overflow-x: hidden;
     margin-top: 100vh;
 }
+
+/************************
+SHOP PAGE FIRST CONTAINER
+************************/
+
+.first-shopping-page-container {
+    background-color: red;
+}
+
+.shop-online-text h2 {
+    color: #000;
+}
