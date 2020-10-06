@@ -2,7 +2,7 @@
   require 'includes/header.inc.php';
 ?>
 <div>
-    <h2>Coming Soon</h2>
+    heyyyyy
 </div>
 
 <?php
