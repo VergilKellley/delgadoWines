@@ -8,6 +8,7 @@
   </div>
   <div class="shop-online-box">
     <h3>Join Our<br> Wine Club</h3>
+    <button class='wine-club-btn-2' type='submit'>Learn More</button>
   </div>
 
 </section>
