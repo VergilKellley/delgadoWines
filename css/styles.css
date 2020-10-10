@@ -860,6 +860,7 @@ SHOP PAGE FIRST CONTAINER
 .first-shopping-page-container {
     margin-top: 7rem;
     display: flex;
+    position: relative;
 }
 
 .shop-online-text {
@@ -902,7 +903,45 @@ SHOP PAGE FIRST CONTAINER
     background-size: cover;
     height: 90vh;
     width: 30vw;
-    position: absolute;
-    right: 13.5vw;
-    top: 23.9vh;
+    position: relative;
+    right: -10.5vw;
+    top: 4.6vh;
+}
+
+/**************************
+SHOP PAGE SECOND CONTAINER
+**************************/
+
+.year-buttons-container {
+    width: 80vw;
+    margin: 7rem auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.year-buttons {
+    width: 7.5vw;
+    height: 3.5vw;
+    background-color: var(--button-font-border-color);
+    color: #fff;
+}
+
+.year-buttons:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: var(--button-font-border-color);
+    border: 2px solid var(--button-font-border-color);
+}
+
+.vintage-text-container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.vintage-text-container h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: var(--button-font-border-color);
+    text-transform: uppercase;
+    letter-spacing: .5rem;
 }
