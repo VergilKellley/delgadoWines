@@ -24,8 +24,8 @@
   <div class="vintage-text-container">
     <h2>2020 Vintage</h2>
   </div>
-  <div id="twenty-twenty-container">
-      <h2 id="twenty-twenty">2020</h2>
+  <div id="twenty-twenty-container-shop-page">
+      <h2 id="twenty-twenty-text-shop-page">2020</h2>
       <img src="images/wine12.png" alt="bottle of wine"/>
     </div>
 </section>
