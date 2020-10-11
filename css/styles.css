@@ -945,3 +945,24 @@ SHOP PAGE SECOND CONTAINER
     text-transform: uppercase;
     letter-spacing: .5rem;
 }
+
+#twenty-twenty-container-shop-page {
+    position: relative;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#twenty-twenty-text-shop-page {
+    text-align: center;
+    font-size: 25rem;
+    margin-top: 35vh;
+}
+
+#twenty-twenty-container-shop-page img {
+    position: absolute;
+    height: 800px;
+    top: -5vh;
+    z-index: 3;
+}
