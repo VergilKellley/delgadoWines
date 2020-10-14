@@ -33,3 +33,25 @@
 <?php
   require 'includes/footer.inc.php';
 ?>
+
+<?php
+
+$fruit_counts=array('apple'=>3, 'banana'=>4, 'orange'=>0);
+$fruit_colors=array('apple'=>'red', 'banana'=>'yellow', 'orange'=>'orange', 'plum'=>'purple');
+
+$fruit_counts['apple'] = 4;
+print_r($fruit_counts)
+
+?>
+
+<?php
+
+  $x = 1;
+
+  switch ($x) {
+    case 1:
+      echo "The answer is 1";
+    break;
+  }
+
+?>
