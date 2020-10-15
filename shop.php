@@ -29,29 +29,38 @@
       <img src="images/wine12.png" alt="bottle of wine"/>
     </div>
 </section>
+<section class="third-shoping-page-section">
+  <div class="shop-page-bottle-text-container-1">
+    <div>
+      <img class="four-bottles"  src="images/wine12.png" alt="wine bottle" />
+      <h3>Pinot Noir</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consequatur recusandae, vel nulla quidem dolore fugiat debitis tempora minima aperiam, fuga assumenda facere iusto ullam esse, pariatur velit atque modi.</p>
+      <button class="button" type="submit">View Details</button>
+    </div>
+    <div>
+      <img class="four-bottles" src="images/wine7.png" alt="wine bottle" />
+      <h3>Pinot Noir</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consequatur recusandae, vel nulla quidem dolore fugiat debitis tempora minima aperiam, fuga assumenda facere iusto ullam esse, pariatur velit atque modi.</p>
+      <button class="button" type="submit">View Details</button>
+    </div>
+ </div>
+  <div class="shop-page-bottle-text-container-1">
+    <div>
+      <img class="four-bottles"  src="images/wine5.png" alt="wine bottle" />
+      <h3>Pinot Noir</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consequatur recusandae, vel nulla quidem dolore fugiat debitis tempora minima aperiam, fuga assumenda facere iusto ullam esse, pariatur velit atque modi.</p>
+      <button class="button" type="submit">View Details</button>
+    </div>
+    <div>
+      <img class="four-bottles" src="images/wine6.png" alt="wine bottle" />
+      <h3>Pinot Noir</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consequatur recusandae, vel nulla quidem dolore fugiat debitis tempora minima aperiam, fuga assumenda facere iusto ullam esse, pariatur velit atque modi.</p>
+      <button class="button" type="submit">View Details</button>
+    </div>
+ </div>
+</section>
 
 <?php
   require 'includes/footer.inc.php';
 ?>
 
-<?php
-
-$fruit_counts=array('apple'=>3, 'banana'=>4, 'orange'=>0);
-$fruit_colors=array('apple'=>'red', 'banana'=>'yellow', 'orange'=>'orange', 'plum'=>'purple');
-
-$fruit_counts['apple'] = 4;
-print_r($fruit_counts)
-
-?>
-
-<?php
-
-  $x = 1;
-
-  switch ($x) {
-    case 1:
-      echo "The answer is 1";
-    break;
-  }
-
-?>
