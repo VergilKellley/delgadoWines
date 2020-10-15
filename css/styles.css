@@ -966,3 +966,20 @@ SHOP PAGE SECOND CONTAINER
     top: -5vh;
     z-index: 3;
 }
+
+/************************
+SHOP PAGE THIRD CONTAINER
+************************/
+
+.shop-page-bottle-text-container-1 {
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+
+ .four-bottles {
+    width: 200px;
+    height: auto;
+    float: left;
+}
