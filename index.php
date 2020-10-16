@@ -90,7 +90,7 @@
     </div>
     <div id="twenty-twenty-container">
       <h2 id="twenty-twenty">2020</h2>
-      <img src="images/wine12.png" alt="bottle of wine"/>
+      <img src="images/wine50.png" alt="bottle of wine"/>
     </div>
     <div class="shop-vintage-btn">
       <button class="buttons" type="submit">Shop 2020 Vintage</button>
