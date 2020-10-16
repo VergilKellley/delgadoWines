@@ -963,7 +963,6 @@ SHOP PAGE SECOND CONTAINER
 #twenty-twenty-container-shop-page img {
     position: absolute;
     height: 800px;
-    top: -5vh;
     z-index: 3;
 }
 
@@ -982,4 +981,14 @@ SHOP PAGE THIRD CONTAINER
     width: 200px;
     height: auto;
     float: left;
+}
+
+.shop-page-bottle-text-container-1 div h3 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+    margin-top: 2rem;
+}
+
+.shop-page-bottle-text-container-1 div p {
+    line-height: 1.5;
 }
