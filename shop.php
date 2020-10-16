@@ -26,7 +26,7 @@
   </div>
   <div id="twenty-twenty-container-shop-page">
       <h2 id="twenty-twenty-text-shop-page">2020</h2>
-      <img src="images/wine12.png" alt="bottle of wine"/>
+      <img src="images/wine50.png" alt="bottle of wine"/>
     </div>
 </section>
 <section class="third-shoping-page-section">
@@ -39,7 +39,7 @@
     </div>
     <div>
       <img class="four-bottles" src="images/wine7.png" alt="wine bottle" />
-      <h3>Pinot Noir</h3>
+      <h3>Syra</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consequatur recusandae, vel nulla quidem dolore fugiat debitis tempora minima aperiam, fuga assumenda facere iusto ullam esse, pariatur velit atque modi.</p>
       <button class="button" type="submit">View Details</button>
     </div>
@@ -47,13 +47,13 @@
   <div class="shop-page-bottle-text-container-1">
     <div>
       <img class="four-bottles"  src="images/wine5.png" alt="wine bottle" />
-      <h3>Pinot Noir</h3>
+      <h3>Cabernet</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consequatur recusandae, vel nulla quidem dolore fugiat debitis tempora minima aperiam, fuga assumenda facere iusto ullam esse, pariatur velit atque modi.</p>
       <button class="button" type="submit">View Details</button>
     </div>
     <div>
       <img class="four-bottles" src="images/wine6.png" alt="wine bottle" />
-      <h3>Pinot Noir</h3>
+      <h3>Zinfandel</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consequatur recusandae, vel nulla quidem dolore fugiat debitis tempora minima aperiam, fuga assumenda facere iusto ullam esse, pariatur velit atque modi.</p>
       <button class="button" type="submit">View Details</button>
     </div>
