@@ -35,13 +35,13 @@
       <img class="four-bottles"  src="images/wine12.png" alt="wine bottle" />
       <h3>Pinot Noir</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consequatur recusandae, vel nulla quidem dolore fugiat debitis tempora minima aperiam, fuga assumenda facere iusto ullam esse, pariatur velit atque modi.</p>
-      <button class="button" type="submit">View Details</button>
+      <button class="small-shop-bottles-button" type="submit">View Details</button>
     </div>
     <div>
       <img class="four-bottles" src="images/wine7.png" alt="wine bottle" />
       <h3>Syra</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consequatur recusandae, vel nulla quidem dolore fugiat debitis tempora minima aperiam, fuga assumenda facere iusto ullam esse, pariatur velit atque modi.</p>
-      <button class="button" type="submit">View Details</button>
+      <button class="small-shop-bottles-button" type="submit">View Details</button>
     </div>
  </div>
   <div class="shop-page-bottle-text-container-1">
@@ -49,16 +49,17 @@
       <img class="four-bottles"  src="images/wine5.png" alt="wine bottle" />
       <h3>Cabernet</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consequatur recusandae, vel nulla quidem dolore fugiat debitis tempora minima aperiam, fuga assumenda facere iusto ullam esse, pariatur velit atque modi.</p>
-      <button class="button" type="submit">View Details</button>
+      <button class="small-shop-bottles-button" type="submit">View Details</button>
     </div>
     <div>
       <img class="four-bottles" src="images/wine6.png" alt="wine bottle" />
       <h3>Zinfandel</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione consequatur recusandae, vel nulla quidem dolore fugiat debitis tempora minima aperiam, fuga assumenda facere iusto ullam esse, pariatur velit atque modi.</p>
-      <button class="button" type="submit">View Details</button>
+      <button class="small-shop-bottles-button" type="submit">View Details</button>
     </div>
  </div>
 </section>
+
 
 <?php
   require 'includes/footer.inc.php';
