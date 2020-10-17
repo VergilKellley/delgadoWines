@@ -992,3 +992,19 @@ SHOP PAGE THIRD CONTAINER
 .shop-page-bottle-text-container-1 div p {
     line-height: 1.5;
 }
+
+.small-shop-bottles-button {
+    margin-top: 1rem;
+    width: 10.5vw;
+    height: 3.5vw;
+    padding: 3px 7px;
+    background-color: #fff;
+    color: var(--button-font-border-color);
+    border: 2px solid var(--button-font-border-color);
+}
+
+.small-shop-bottles-button:hover {
+    cursor: pointer;
+    background-color: var(--button-font-border-color);
+    color: #fff;
+}
