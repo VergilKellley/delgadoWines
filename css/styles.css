@@ -977,6 +977,13 @@ SHOP PAGE THIRD CONTAINER
     padding-top: 10rem;
 }
 
+.shop-page-bottle-text-container-2 {
+    display: flex;
+    width: 80vw;
+    margin: 0 auto 10rem auto;
+    padding-top: 50px;
+}
+
  .four-bottles {
     width: 200px;
     height: auto;
@@ -990,6 +997,16 @@ SHOP PAGE THIRD CONTAINER
 }
 
 .shop-page-bottle-text-container-1 div p {
+    line-height: 1.5;
+}
+
+.shop-page-bottle-text-container-2 div h3 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+    margin-top: 2rem;
+}
+
+.shop-page-bottle-text-container-2 div p {
     line-height: 1.5;
 }
 
@@ -1007,4 +1024,47 @@ SHOP PAGE THIRD CONTAINER
     cursor: pointer;
     background-color: var(--button-font-border-color);
     color: #fff;
+}
+
+/*************************
+ABOUT PAGE FIRST CONTAINER
+*************************/
+
+.first-about-page-container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    background-color: #D9D6CD;
+    overflow: hidden;
+}
+
+.about-winery-container {
+    width: 80vw;
+    position: absolute;
+    margin-top: 6rem;
+}
+
+.about-page-background-image {
+    background-image: url('../images/winery21.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    width: 80vw;
+    margin-left: 15rem;
+    position: relative;
+    margin-top: 1.2rem;
+    -ms-transform: rotate(5deg); /* IE 9 */
+    transform: rotate(6deg);
+    overflow-x: hidden;
+}
+
+.about-page-grapes-image {
+    width: 78vw;
+}
+
+.about-winery-container h2 {
+    width: 55%;
+    font-size: var(--h1-font-size);
+    color: var(--button-font-border-color);
 }
