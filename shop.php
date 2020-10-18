@@ -44,7 +44,7 @@
       <button class="small-shop-bottles-button" type="submit">View Details</button>
     </div>
  </div>
-  <div class="shop-page-bottle-text-container-1">
+  <div class="shop-page-bottle-text-container-2">
     <div>
       <img class="four-bottles"  src="images/wine5.png" alt="wine bottle" />
       <h3>Cabernet</h3>
