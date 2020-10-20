@@ -1049,9 +1049,13 @@ ABOUT PAGE FIRST CONTAINER
 }
 .text-year-container {
     position: absolute;
-    left: 70%;
+    left: 73%;
     top: 30%;
     z-index: 10;
+}
+
+.text-year-container h2 {
+    font-size: 6vw !important;
 }
 
 .about-page-background-image {
