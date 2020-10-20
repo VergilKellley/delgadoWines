@@ -3,12 +3,15 @@
 ?>
 <section class="first-about-page-container">
 <div class="about-page-background-image"></div>
-<div class="blurr-background"></div>
   <div class="about-winery-container">
     <h2>About Our Winery</h2>
-    <img class="about-page-grapes-image" src="images/winery29.png" alt="wine grapes"/>
-    <p>Making Wine Since</p>
-    <h2>1950</h2>
+    <div class="img-text-year-container">
+      <img class="about-page-grapes-image" src="images/winery29.jpg" alt="wine grapes"/>
+      <div class="text-year-container">
+        <p>Making Wine Since</p>
+        <h2>1950</h2>
+      </div>
+    </div>
   </div>
 </section>
 
