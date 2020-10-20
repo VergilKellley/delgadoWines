@@ -1044,6 +1044,16 @@ ABOUT PAGE FIRST CONTAINER
     margin-top: 6rem;
 }
 
+.img-text-year-container {
+    position: relative;
+}
+.text-year-container {
+    position: absolute;
+    left: 70%;
+    top: 30%;
+    z-index: 10;
+}
+
 .about-page-background-image {
     background-image: url('../images/winery21.jpg');
     background-position: center;
@@ -1061,6 +1071,7 @@ ABOUT PAGE FIRST CONTAINER
 
 .about-page-grapes-image {
     width: 78vw;
+    margin-top: 2rem
 }
 
 .about-winery-container h2 {
