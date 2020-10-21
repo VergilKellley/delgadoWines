@@ -1047,6 +1047,7 @@ ABOUT PAGE FIRST CONTAINER
 .img-text-year-container {
     position: relative;
 }
+
 .text-year-container {
     position: absolute;
     left: 73%;
@@ -1079,7 +1080,97 @@ ABOUT PAGE FIRST CONTAINER
 }
 
 .about-winery-container h2 {
-    width: 55%;
+    width: 60%;
     font-size: var(--h1-font-size);
     color: var(--button-font-border-color);
+}
+
+/**************************
+ABOUT PAGE SECOND CONTAINER
+**************************/
+
+.second-about-page-container {
+    background-color: #D9D6CD;
+}
+
+.about-page-img-text-container {
+    display: flex;
+    width: 90vw;
+    margin: 0rem auto;
+}
+
+.about-page-img-text-container div {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 5rem;
+}
+
+.about-page-img-text-container div {
+    width: 100%;
+    margin-right: 20px;
+    padding-top: 50px;
+    line-height: 2;
+}
+
+/**************************
+ABOUT PAGE THIRD CONTAINER
+**************************/
+
+.third-about-page-container {
+background-color: #D9D6CD;
+}
+
+.about-page-third-container-content {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 5rem;
+}
+
+.about-page-third-container-content div {
+    width: 40vw;
+}
+
+.about-page-third-container-content div h2 {
+    text-align: left;
+    font-size: 3rem ;
+}
+
+.about-page-third-container-content div p {
+    line-height: 2;
+}
+
+.about-page-third-container-content div img {
+    height: 85vh;
+    margin-left: 20%;
+}
+
+/*************************
+ABOUT PAGE FOUTH CONTAINER
+*************************/
+
+.about-page-box-text-container {
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 10rem;
+    position: relative;
+}
+
+.about-page-box-text-container img {
+    width: 30vw;
+}
+
+.about-page-box {
+    width: 16vw;
+    height: 73.5vh;
+    color: #fff;
+    position: absolute;
+    left: 23%;
+    top: 10%;
+    background-color: var(--button-font-border-color);
+}
+
+.about-page-fiftyK-text {
+    width: 50vw;
 }
