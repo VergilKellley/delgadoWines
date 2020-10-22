@@ -59,8 +59,27 @@
      <h2>50k<span>Bottles</span></h2>
      <p class="produced-text">Produced / Yr </p>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quam quasi perspiciatis qui quod, laborum, consequatur quia numquam voluptatem nesciunt autem excepturi quidem possimus quas?</p>
-     <button class="" type="submit" >Visit Our Winery</button>
+     <button class="buttons about-page-button" type="submit" >Visit Our Winery</button>
    </div>
+  </div>
+</section>
+<section class="fifth-about-page-container">
+  <div class="about-page-three-images-container">
+    <div class="about-page-image-text-containers">
+      <img src="images/winery43.png" alt="wine-bottle corks" />
+      <div class="bold-text"><strong>Consectetur</strong></div>
+      <p>Lorem ipsum dolors sit, eamet consectetur adipisicing elit Vel.</p>
+    </div>
+    <div class="about-page-image-text-containers">
+      <img src="images/winery44.png" alt="wine-bottle corks" />
+      <div class="bold-text"><strong>Adipisicing elit</strong></div>
+      <p>Lorem ipsum dolors sit, eamet consectetur adipisicing elit Vel.</p>
+    </div>
+    <div class="about-page-image-text-containers">
+      <img src="images/winery45.png" alt="wine-bottle corks" />
+      <div class="bold-text"><strong>Dolors</strong></div>
+      <p>Lorem ipsum dolors sit, eamet consectetur adipisicing elit Vel.</p>
+    </div>
   </div>
 </section>
 
