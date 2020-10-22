@@ -1149,6 +1149,10 @@ background-color: #D9D6CD;
 ABOUT PAGE FOUTH CONTAINER
 *************************/
 
+.fourth-about-page-container {
+    background-color: #D9D6CD;
+}
+
 .about-page-box-text-container {
     display: flex;
     width: 80vw;
@@ -1202,10 +1206,48 @@ ABOUT PAGE FOUTH CONTAINER
 }
 
 .about-page-fiftyK-text span {
-    font-size: 4vw;
+    font-size: 4.5vw;
+    color: rgba(0, 0, 0, .3);
 }
 
 .produced-text {
     font-size: 4vw;
     padding-bottom: 5vh;
+    color: rgba(0, 0, 0, .3);
+}
+
+/*************************
+ABOUT PAGE FIFTH CONTAINER
+*************************/
+
+.fifth-about-page-container {
+    margin-bottom: 5rem;
+    background-color: #D9D6CD;
+}
+
+.about-page-three-images-container {
+    padding-top: 5rem;
+    width: 80vw;
+    display: flex;
+    margin: 0 auto;
+}
+
+.about-page-image-text-containers {
+    width: 33%;
+    padding-bottom: 5rem;
+}
+
+.about-page-image-text-containers img {
+    width: 25vw;
+}
+
+.about-page-image-text-containers .bold-text {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.about-page-image-text-containers p {
+    padding: 20px 50px;
+    text-align: center;
 }
