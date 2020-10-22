@@ -50,15 +50,14 @@
   <div class="about-page-box-text-container">
     <img src="images/winery42.png" alt="wine bottle">
     <div class="about-page-box">
-      <h3>Wine Tastings</h3>
+      <h3 class="wine-tasting-text">Wine Tastings</h3>
       <p>7 days a week from 1pm - 5pm Prescheduled private tastings available</p>
       <h3>Winery Tours</h3>
-      <h3>By Appointment Only</h3>
+      <p>By Appointment Only</p>
    </div>
    <div class="about-page-fiftyK-text">
-     <h2>50k</h2>
-     <span>Bottles</span>
-     <p>Produced / Yr </p>
+     <h2>50k<span>Bottles</span></h2>
+     <p class="produced-text">Produced / Yr </p>
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quam quasi perspiciatis qui quod, laborum, consequatur quia numquam voluptatem nesciunt autem excepturi quidem possimus quas?</p>
      <button class="" type="submit" >Visit Our Winery</button>
    </div>
