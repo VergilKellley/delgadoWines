@@ -1251,3 +1251,53 @@ ABOUT PAGE FIFTH CONTAINER
     padding: 20px 50px;
     text-align: center;
 }
+
+/*************************
+CONTACT US FIRST CONTAINER
+*************************/
+
+.contact-us-text-container {
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom:6rem;
+}
+
+.contact-us-text-container h2 {
+    font-size: 6rem;
+    padding-top: 10rem;
+}
+
+.text-contact-info-container {
+    width: 80vw;
+    display: flex;
+    margin: 0 auto;
+}
+
+.contact {
+    width: 33%;
+    margin-bottom: 4rem;
+}
+
+.contact-text {
+    font-size: 1.5rem;
+    color: #333;
+    padding-top: 20px;
+}
+
+.contact-text a {
+    text-decoration: none;
+    color: #333;
+}
+
+/****************************
+CONTACT PAGE SECOND CONTAINER
+****************************/
+
+.second-contact-page-container {
+    margin-top: 5rem;
+}
+
+.contact-page-image-container {
+    width: 80vw;
+    margin: 0 auto;
+}
