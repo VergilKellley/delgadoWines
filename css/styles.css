@@ -1278,6 +1278,10 @@ CONTACT US FIRST CONTAINER
     margin-bottom: 4rem;
 }
 
+.contact:first-child {
+    padding-right: 20px;
+}
+
 .contact-text {
     font-size: 1.5rem;
     color: #333;
@@ -1300,4 +1304,42 @@ CONTACT PAGE SECOND CONTAINER
 .contact-page-image-container {
     width: 80vw;
     margin: 1px auto;
+}
+
+
+
+/****************************
+CONATACT PAGE THIRD CONTAINER
+****************************/
+
+.third-contact-page-container {
+    margin: 5rem 0 10rem 0;
+}
+
+.contact-page-box-form-container {
+    position: relative;
+    width: 80vw;
+    display: flex;
+    margin: 0 auto;
+}
+
+.contact-page-box {
+    position: absolute;
+    width: 24vw;
+    height: 85vh;
+    line-height: 2.5em;
+    padding: 0 20px;
+    border: 2px solid var(--button-font-border-color);
+    z-index: 3;
+    top: -15rem;
+    left: 3rem;
+}
+
+.contact-page-box p {
+    padding-top: 12rem;
+}
+
+.contact-page-form-container {
+    position: absolute;
+    right: 0;
 }
