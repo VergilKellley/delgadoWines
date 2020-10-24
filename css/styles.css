@@ -1313,7 +1313,7 @@ CONATACT PAGE THIRD CONTAINER
 ****************************/
 
 .third-contact-page-container {
-    margin: 5rem 0 10rem 0;
+    margin: 5rem 0 25rem 0;
 }
 
 .contact-page-box-form-container {
@@ -1342,4 +1342,21 @@ CONATACT PAGE THIRD CONTAINER
 .contact-page-form-container {
     position: absolute;
     right: 0;
+}
+
+.contact-page-form input {
+    width: 18vw;
+    margin-bottom: 5rem;
+    padding: 0 0 10px 0;
+    outline: none;
+    border: none;
+    border-bottom:2px solid #333;
+}
+
+.contact-page-form textarea {
+    width: 36.4vw;
+    padding: 0 0 10px 0;
+    outline: none;
+    border: none;
+    border-bottom:2px solid #333;
 }
