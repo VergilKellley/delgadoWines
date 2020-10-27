@@ -17,16 +17,20 @@
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
     <script src="js/cart.js" async></script>
+    <script src="js/main.js" async></script>
     
     <title>Delgado Winery</title>
   </head>
   <body>
+  <!----------NAVIGATION---------------->
   <section class="nav-container">
     <div class="top-nav-container">
       <div class="top-nav">
+        <div class="logo-div">
           <a id="logo" href="index.php">
             <img class="wine-logo" src="images/wineLogo.jpg" alt="logo image">
           </a>
+        </div>
         <ul>
           <li><a href="index.php">Home</a></li>
           <li><a href="shop.php">Shop</a></li>
@@ -65,3 +69,32 @@
       </div>
     </div>
   </section>
+  <!------------MOBILE NAVIGATION----------------------->
+  <div class="mobile-nav-container">
+    <div class="mobile-img"></div>
+    <nav class='mobile-navbar'>
+      <div class='hamburger-menu'>
+        <div class='line line-1'></div>
+        <div class='line line-2'></div>
+        <div class='line line-3'></div>
+      </div>
+
+      <ul>
+        <li class='nav-item'>
+          <a class="nav-link" href='index.php'>Home</a>
+        </li>
+        <li class='nav-item'>
+          <a class="nav-link" href="shop.php">Shop</a>
+        </li>
+        <li class='nav-item'>
+          <a class="nav-link" href='about.php'>About</a>
+        </li>
+        <li class='nav-item'>
+          <a class="nav-link" href='contact.php'>Contact</a>
+        </li>
+        <li class='nav-item'>
+          <a class="nav-link" href='signup.php'>Signup</a>
+        </li>
+      </ul>
+    </nav>
+  </div>

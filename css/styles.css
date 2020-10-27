@@ -30,15 +30,16 @@
       position: fixed;
       top: 0;
       z-index: 100;
+      max-width: 100%;
   }
 
   #logo {
-      margin-left: 30px;
-      margin-right: 40px;
+      margin-left: 2VW;
+      margin-right: 2VW;
   }
 
   #login-form {
-      margin-left: 60px;
+      width: 100%;
   }
 
   #login-form input {
@@ -47,10 +48,13 @@
 
   .loginBtn {
       padding: 5px 8px;
+      transition: ease-in-out 0.5s;
   }
 
   .loginBtn:hover {
       cursor: pointer;
+      color: #fff;
+      background-color: var(--button-font-border-color);
   }
 
 .top-nav-container {  
@@ -68,15 +72,22 @@
     overflow-x: hidden;
 }
 
+.logo-div {
+    width: 6vw;
+    height: 6vw;
+    margin: 0 auto;
+}
+
 .wine-logo {
-    width: 80px;
-    height: 80px;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
 }
 
 .top-nav ul {
     display: inline-flex;
-    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
     list-style: none;
 }
 
@@ -1364,7 +1375,7 @@ CONATACT PAGE THIRD CONTAINER
 /****************
 MOBILE NAVIGATION
 ****************/
-
+/*
 .mobile-nav-container {
     display: none;
 }
@@ -1390,7 +1401,7 @@ MOBILE NAVIGATION
     }
 
     /***toggle navbar***/
-
+/*
     .change {
         right: 0;
     }
@@ -1400,7 +1411,9 @@ MOBILE NAVIGATION
         width: 100%;
         height: 100vh;
         /*background: linear-gradient(rgba(0,0,0,0.4), rgba(148, 48, 48, .2) rgba(167, 67, 67, .4));*/
-        background: #000;
+  /*      background: #000;
+        position: relative;
+        z-index: 50;
     }
 
     .mobile-img {
