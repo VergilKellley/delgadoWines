@@ -89,12 +89,6 @@
         <li class='nav-item'>
           <a class="nav-link" href='about.php'>About</a>
         </li>
-        <li class='nav-item'>
-          <a class="nav-link" href='contact.php'>Contact</a>
-        </li>
-        <li class='nav-item'>
-          <a class="nav-link" href='signup.php'>Signup</a>
-        </li>
       </ul>
     </nav>
   </div>
