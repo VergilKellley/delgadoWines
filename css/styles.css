@@ -1375,7 +1375,7 @@ CONATACT PAGE THIRD CONTAINER
 /****************
 MOBILE NAVIGATION
 ****************/
-/*
+
 .mobile-nav-container {
     display: none;
 }
@@ -1401,7 +1401,7 @@ MOBILE NAVIGATION
     }
 
     /***toggle navbar***/
-/*
+
     .change {
         right: 0;
     }
@@ -1411,7 +1411,7 @@ MOBILE NAVIGATION
         width: 100%;
         height: 100vh;
         /*background: linear-gradient(rgba(0,0,0,0.4), rgba(148, 48, 48, .2) rgba(167, 67, 67, .4));*/
-  /*      background: #000;
+        background: #000;
         position: relative;
         z-index: 50;
     }
