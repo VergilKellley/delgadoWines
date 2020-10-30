@@ -1391,7 +1391,6 @@ MOBILE NAVIGATION
     body {
         overflow-x: hidden;
         position: relative;
-        left: 60px;
     }
 
     .buttons {
@@ -1528,25 +1527,25 @@ MOBILE NAVIGATION
     /****Index.php*****/
 
     .hero-container {
-        width: 100vw;
-        background-color: green;
+        /*width: 100vw;*/
     }
     .hero-image-container {
         display: block;
         width: 100vw;
         /*background-color: blue;*/
-        margin: 0;
+        margin: 0 auto;
     }
 
     .hero-text {
         /*background-color: red;*/
-        width: 100%;
+        width: 100vw;
         margin: 0 auto;
         padding: 10px 20px;
     }
 
     .hero-image-container img {
         width: 100%;
+        right: 0;
     }
 
 }
