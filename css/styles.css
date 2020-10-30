@@ -1527,13 +1527,17 @@ MOBILE NAVIGATION
     /****Index.php*****/
 
     .hero-container {
-        /*width: 100vw;*/
+        width: 100vw;
+        left: 5vw;
     }
     .hero-image-container {
         display: block;
         width: 100vw;
         /*background-color: blue;*/
         margin: 0 auto;
+        position: relative;
+
+
     }
 
     .hero-text {
@@ -1541,11 +1545,21 @@ MOBILE NAVIGATION
         width: 100vw;
         margin: 0 auto;
         padding: 10px 20px;
+        position: relative;
+    }
+
+    .hero-text h1, p {
+        padding: 20px;
+    }
+
+    .hero-text button {
+        margin-left: 20px;
     }
 
     .hero-image-container img {
         width: 100%;
         right: 0;
+        margin-top: 10rem
     }
 
 }
