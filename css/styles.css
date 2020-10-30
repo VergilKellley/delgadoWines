@@ -7,14 +7,14 @@
 :root {
     --nav-background: #f0edeb;
     --body-background: #fff;
-    --h1-font-size: 110px;
+    --h1-font-size: 10vw;
     --h1-font-style: sans-serif;
     --logo-font: 'Quicksand', sans-serif;
     --h2-font: 'Montserrat', sans-serif;
     --p-font: aria'Lato', sans-serif;
     --button-bg-color: #fff;
     --button-font-border-color: #280400;
-    --button-font-size: 1em;
+    --button-font-size: 1.5vw;
   }
 
   body {
@@ -44,10 +44,12 @@
 
   #login-form input {
       padding: 5px;
+      width: 30%;
   }
 
   .loginBtn {
       padding: 5px 8px;
+      width: 5vw;
       transition: ease-in-out 0.5s;
   }
 
@@ -96,6 +98,7 @@
     text-decoration: none;
     padding:0 2rem;
     color: var(--text-color);
+    font-size: 1.5vw;
 }
 
 .hero-container {
@@ -127,6 +130,7 @@
 .hero-image-container img {
  position: relative;
     right: -9.5vw;
+    width: 45vw;
 }
 
 .buttons {
@@ -134,7 +138,8 @@
     border: 2px solid var(--button-font-border-color);
     font-size: var(--button-font-size);
     margin-top: 1rem;
-    padding: 20px 25px;
+    padding: 2vw 1vw;
+    width: 16vw;
     font-style: italic;
     border-radius: 3px;
 }
@@ -1372,15 +1377,30 @@ CONATACT PAGE THIRD CONTAINER
     border-bottom:2px solid #333;
 }
 
-/****************
+/**************************************************************
 MOBILE NAVIGATION
-****************/
+**************************************************************/
 
 .mobile-nav-container {
     display: none;
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1040px) {
+
+    /******Global Mobile Settings*******/
+    body {
+        overflow-x: hidden;
+        position: relative;
+        left: 60px;
+    }
+
+    .buttons {
+        min-width: 115px;
+        min-height: 50px;
+        font-size: 12px;
+        width: 125px;
+        height: 50px;
+    }
 
     .nav-container {
         display: none;
@@ -1503,6 +1523,30 @@ MOBILE NAVIGATION
     .nav-link:hover::before,
     .nav-link:hover::after {
         transform: scaleX(1);
+    }
+
+    /****Index.php*****/
+
+    .hero-container {
+        width: 100vw;
+        background-color: green;
+    }
+    .hero-image-container {
+        display: block;
+        width: 100vw;
+        /*background-color: blue;*/
+        margin: 0;
+    }
+
+    .hero-text {
+        /*background-color: red;*/
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+
+    .hero-image-container img {
+        width: 100%;
     }
 
 }
