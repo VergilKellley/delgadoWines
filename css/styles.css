@@ -1530,26 +1530,20 @@ MOBILE NAVIGATION
         width: 100vw;
         left: 5vw;
     }
+
     .hero-image-container {
         display: block;
         width: 100vw;
         /*background-color: blue;*/
         margin: 0 auto;
         position: relative;
-
-
     }
 
     .hero-text {
-        /*background-color: red;*/
         width: 100vw;
         margin: 0 auto;
-        padding: 10px 20px;
+        padding: 20px 20px;
         position: relative;
-    }
-
-    .hero-text h1, p {
-        padding: 20px;
     }
 
     .hero-text button {
@@ -1560,6 +1554,12 @@ MOBILE NAVIGATION
         width: 100%;
         right: 0;
         margin-top: 10rem
+    }
+
+    /*******Second Container********/
+
+    .boxes {
+        display: block;
     }
 
 }
