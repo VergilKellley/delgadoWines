@@ -1389,7 +1389,7 @@ MOBILE NAVIGATION
 
     /******Global Mobile Settings*******/
     body {
-        overflow-x: hidden;
+        /*overflow-x: hidden;*/
         position: relative;
     }
 
@@ -1583,9 +1583,15 @@ MOBILE NAVIGATION
     }
 
     #more-about-us-btn {
-        top: 23rem;
-        left: 68.8vw;
+        top: 35rem;
+        left: 66.4vw;
         padding: 0;
+        font-size: 12px;
+        width: 20vw;
+    }
+
+    .our-wines-imgs {
+        display: block;
     }
 
 }
