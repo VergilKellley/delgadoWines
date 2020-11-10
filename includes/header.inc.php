@@ -12,7 +12,7 @@
     <!-- google fonts CDN-->
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Quicksand:wght@600&family=Russo+One&display=swap" rel="stylesheet">
     <!--jQuery CDN -->
-    <script
+   <script
   src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
@@ -35,7 +35,7 @@
           <li><a href="index.php">Home</a></li>
           <li><a href="shop.php">Shop</a></li>
           <li><a href="about.php">About</a></li>
-          <li><a href="contact.php">Contact</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
           <?php
           if (isset($_SESSION['userId'])) {
             echo '
@@ -70,7 +70,7 @@
     </div>
   </section>
   <!------------MOBILE NAVIGATION----------------------->
-  <div class="mobile-nav-container">
+ <!-- <div class="mobile-nav-container">
     <div class="mobile-img"></div>
     <nav class='mobile-navbar'>
       <div class='hamburger-menu'>
@@ -91,4 +91,4 @@
         </li>
       </ul>
     </nav>
-  </div>
+  </div>-->
