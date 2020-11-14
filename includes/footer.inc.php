@@ -12,11 +12,11 @@ echo '
 <div class="phone-address-box">
   <p><strong>Phone</strong></p>
   <br>
-  <p>(555) 555-5555</p>
+  <p>(555) 111-5555</p>
   <br><br>
   <p><strong>Address</strong></p>
   <br>
-  <p> 1234 N. Clark Street<br>
+  <p> 12345 N. Clark Street<br>
       Some City Illinois 60601</p>
       <br><br>
   <h2>Join Our Wine Club</h2>
