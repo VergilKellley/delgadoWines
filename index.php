@@ -6,7 +6,7 @@
     <div class="hero-image-container">
       <div class="hero-text">
         <h1>Elegant Winery</h1>
-        <p>Lorem ipsum dolor sit mowhbvo amet consectetur  mowhbvo amet consectetu adipisicing elit. Distinctio maxime beatae fugit molestias aliquam numquam quae autem, velit ea doloremque, reprehenderit atque voluptates modi magni amet dignissimos obcaecati ullam debitis!</p>
+        <p>Lorem ipsum dolor sit mowhbvo amet consectetur  mowhbvo amet consectetu adipisicing elit. Distinctio maxime beatae fugit molestias aliquam numquam quae autem, velit ea doloremque, reprehenderit atque voluptates modi magni amet dignissimos obcaecati ullam debitis! ipsum dolor sit mowhbvo</p>
         <button class="buttons" id="browseWinesBtn" type="submit">Browse Our Wines</button>     
       </div>
         <img src="images/winebottle1.png" alt="wine bottle" />
