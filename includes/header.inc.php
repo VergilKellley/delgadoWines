@@ -61,7 +61,7 @@
                 
                 />
                 <button class="loginBtn" type="submit" name="login-submit" onclick="clearForm()" >Login</button>
-                <a href="signup.php">Sign Up</a>
+                <a href="signup.php">Sign Up Now</a>
               </form>';
           }
               ?>
