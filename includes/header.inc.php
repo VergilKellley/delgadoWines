@@ -31,7 +31,7 @@
             <img class="wine-logo" src="images/wineLogo.jpg" alt="logo image">
           </a>
         </div>
-        <ul>
+        <ul class='nav-ul'>
           <li><a href="index.php">Home</a></li>
           <li><a href="shop.php">Shop</a></li>
           <li><a href="about.php">About</a></li>
