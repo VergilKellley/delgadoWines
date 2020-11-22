@@ -9,7 +9,9 @@
         <p>Lorem ipsum dolor sit mowhbvo amet consectetur  mowhbvo amet consectetu adipisicing elit. Distinctio maxime beatae fugit molestias aliquam numquam quae autem, velit ea doloremque, reprehenderit atque voluptates modi magni amet dignissimos obcaecati ullam debitis! ipsum dolor sit mowhbvo</p>
         <button class="buttons" id="browseWinesBtn" type="submit">Browse Our Wines</button>     
       </div>
+      <div>
         <img src="images/winebottle1.png" alt="wine bottle" />
+      </div>
     </div>
 </section>
 <section class="second-container">
@@ -24,8 +26,8 @@
         <h3><strong>Lorem, ipsum dolor.</strong></h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis quaerat.</p>
       </div>
-      <button id="more-about-us-btn" class="buttons" type="submit">More About Us</button>
     </div>
+    <button id="more-about-us-btn" class="buttons" type="submit">More About Us</button>
   </div>
 </section>
 <section class="third-container">
