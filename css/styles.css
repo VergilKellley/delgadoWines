@@ -127,7 +127,7 @@
     overflow-x: hidden;
 }
 
-.hero-image-container img {
+.hero-image-container div img {
  position: relative;
     right: -9.5vw;
     width: 45vw;
@@ -1548,7 +1548,7 @@ MOBILE NAVIGATION
         margin-left: 20px;
     }
 
-    .hero-image-container img {
+    .hero-image-container div img {
         width: 100%;
         right: 0;
         margin-top: 5rem
@@ -1594,4 +1594,9 @@ MOBILE NAVIGATION
         display: block;
     }
 
+}
+
+.hero-image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 }
