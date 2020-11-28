@@ -29,7 +29,7 @@
 <section class="third-contact-page-container">
   <div class="contact-page-box-form-container">
     <div class="contact-page-box">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In rem sed provident perferendis temporibus aspernatur dolore quibusdam, minima doloremque itaque!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In rem sed provident perferendis temporibus aspernatur dolore quibusdam, lorem ipsum dolor sit amet minima doloremque itaque!</p>
       <button class="buttons">Get Directions</button>
     </div>
     <div class="contact-page-form-container">
