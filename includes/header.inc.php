@@ -8,7 +8,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles1.css" />
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <!-- google fonts CDN-->
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Quicksand:wght@600&family=Russo+One&display=swap" rel="stylesheet">
     <!--jQuery CDN -->
@@ -23,7 +25,7 @@
   </head>
   <body>
   <!----------NAVIGATION---------------->
-  <section class="nav-container">
+  <!<section class="nav-container">
     <div class="top-nav-container">
       <div class="top-nav">
         <div class="logo-div">
