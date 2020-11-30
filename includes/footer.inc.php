@@ -20,7 +20,7 @@ echo '
       Some City Illinois 60601</p>
       <br><br>
   <h2>Join Our Wine Club</h2>
-  <button class="wine-club-btn-2" type="submit">Learn More</button>
+  <button id="footer-btn" class=" small-buttons" type="submit">Learn More</button>
   <div>
 </section>
 </footer>
