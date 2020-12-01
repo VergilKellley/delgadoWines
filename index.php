@@ -26,7 +26,7 @@
             <div class="boxes">
                 <div class="box" id="box-1">
                 <h3><strong>Lorem ipsum dolor.</strong></h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis quaerat.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis quaerat adipisicing elit.</p>
                 </div>
                 <div class="box" id="box-2">
                 <h3><strong>Sed porttitor lectus nibh</strong></h3>
