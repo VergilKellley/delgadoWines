@@ -10,7 +10,7 @@
     <section id='first-sec-container'>
         <div id="first-sec-text-container">
             <h1>Elegant Winery</h1>
-            <p>Lorem ipsum dolor sit mowhbvo amet consectetur  mowhbvo amet consectetu adipisicing elit. Distinctio maxime beatae fugit molestias aliquam numquam quae autem, velit ea doloremque, reprehenderit atque voluptates modi magni amet dignissimos obcaecati ullam debitis! ipsum dolor sit mowhbvo</p>
+            <p>Lorem ipsum dolor sit mowhbvo amet consectetur  mowhbvo amet consectetu adipisicing elit. Distinctio dolor sit maxime beatae fugit molestias aliquam numquam quae autem, velit ea doloremque, reprehenderit atque voluptates modi magni amet dignissimos obcaecati ullam debitis! ipsum dolor sit mowhbvo</p>
             <button class="large-buttons buttons" id="browseWinesBtn" type="submit">Browse Our Wines</button>     
         </div>
         <div id="first-sec-image-container">
