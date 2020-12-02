@@ -64,7 +64,7 @@
 
           <div class="fourth-img-overlay-container">
             <div class="fourth-container-img-overlay"></div>
-            <h2 class="overlay-text">Shop Now</h2>
+            <h2 class="overlay-text">Shop</h2>
             <div class="fourth-bg-img" id="fourth-container-bg-img-1"></div>  
           </div>
         </div>
