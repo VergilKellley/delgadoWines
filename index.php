@@ -152,24 +152,29 @@
         <div id="eigth-container-content-mobile">       
           <img id="eigth-container-image-mobile" src="images/wine15.jpg" alt="cheese and crackers" >
           <div id="eigth-container-overlay-mobile"></div>
-        </div>
+        
         <div id="wine-club-container-mobile">
+            <div>
           <div id="wine-club-box-content-mobile">
             <h2 id="join-wine-club-mobile">Join Our Wine Club</h2>
             <a class="wine-club-btn-mobile small-buttons" href="#" type="submit">Learn More</a>
           </div>
-
 
           <div id="wine-club-subscription-content-mobile">
             <h2>Subscribe</h2>
             <input type="text" name="subscription" placeholder="Email" /><br/>
             <button class="wine-club-submit-btn-mobile" type="submit">Subscribe</button>
           </div>
+          </div>
+          </div>
+
+
+          
           <!--<div id="wine-club-text-mobile">
           <div id="wine-club-text-content-mobile">
           <p><strong>Lorem, ipsum dolor sit amet</strong> consectetur adipisicing elit. Quibusdam porro quam numquam eligendi asperiores nesciunt.</p>
-          </div>-->
           </div>
+          </div>-->
         </div>
       </section>
 </body>
