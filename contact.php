@@ -3,7 +3,7 @@
 ?>
 <section class="first-contact-page-container">
     <div class="contact-us-text-container">
-      <h2>Contact Us</h2>
+      <h2>Contact Now</h2>
     </div>
     <div class="text-contact-info-container">   
         <div class="contact">
