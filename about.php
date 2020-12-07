@@ -8,7 +8,7 @@
     <div class="img-text-year-container">
       <img class="about-page-grapes-image" src="images/winery29.jpg" alt="wine grapes"/>
       <div class="text-year-container">
-        <p>Making Wine Since</p>
+        <p>Making Our Wine Since</p>
         <h2>1950</h2>
       </div>
     </div>
