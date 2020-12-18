@@ -30,7 +30,7 @@
                 </div>
                 <div class="box" id="box-2">
                 <h3><strong>Sed porttitor lectus nibh</strong></h3>
-                <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi a pellentesque nec.</p>
              </div>
             </div>
             <button class="buttons large-buttons boxes-btn" type="submit">More About Us</button>
