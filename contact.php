@@ -8,7 +8,7 @@
     <div class="text-contact-info-container">   
         <div class="contact">
           <p>Phone</p>
-          <p class="contact-text">(555) 555-5555</p>
+          <p class="contact-text">(123) 555-5555</p>
         </div>
         <div class="contact">
           <p>Email</p>
