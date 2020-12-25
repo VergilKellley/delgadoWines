@@ -16,7 +16,7 @@
             <input type="password" name="pwd-repeat" placeholder="Repeat Password" required>
             <button type="submit" name="signup-submit">Sign Up</button>
         </form> 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eum veniam reiciendis dolor sit amet consectetur deserunt ipsum dolor sitpariatur consequuntur sit obcaecati rerum quae quaerat temporibus in possimus iure, adipisci, nobis a! Tempora, consequuntur id.</p>
+            <p>Lorem ipsum eum veniam reiciendis dolor sit amet consectetur adipisicing elit. Magni eum veniam reiciendis dolor sit amet consectetur deserunt ipsum dolor sitpariatur consequuntur sit obcaecati rerum quae quaerat temporibus in possimus iure, adipisci, nobis a! Tempora, consequuntur id.</p>
         </div>
         </div>
     </section>
